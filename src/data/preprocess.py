@@ -50,7 +50,7 @@ def clean_location(df: pd.DataFrame) -> pd.DataFrame:
         "Grocery Store",
         "Camp",
         "Religious Facility",
-        "Office/Indoor Worker"
+        "Office/Indoor Workplace"
     ]
 
     df["Location"] = df["Location"].apply(
